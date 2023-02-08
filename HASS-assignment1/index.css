@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: monospace;
+}
+h1{
+    text-align: center;
+    line-height: 80px;
+}
+.intro{
+    text-align: center;
+}
+.intro p{
+    line-height: 40px;
+    font-size: 15px;
+}
+.intro p a{
+    color: blue;
+}
+.times{
+    text-align: center;
+}
+.time p{
+    line-height: 30px;
+    font-size: 15px;
+}
+table{
+    margin: 30px auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+th,td{
+    padding: 8px 15px;
+}
+th{
+    border-bottom: 1px solid white;
+}
+tr:nth-child(2n+1) {
+    background-color: #333;
+}
+tr:nth-child(2n+1) th{
+    background-color: #111;
+}
